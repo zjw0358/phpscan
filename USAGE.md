@@ -1,0 +1,25 @@
+# 使用说明 #
+
+两个程序都只扫描目录中的php和inc文件。
+
+### php\_shell\_scan.exe ###
+采用语义分析的方法进行后门检测，分严谨扫描模式和深度探索模式。
+日志添加在程序目录下scan.log中
+#### 严谨扫描模式 ####
+```
+	php_shell_scan.exe dir
+	php_shell_scan.exe file
+```
+#### 深度探索模式 ####
+```
+	php_shell_scan.exe dir maybe
+	php_shell_scan.exe file maybe
+```
+
+### php\_shell\_scan\_re.exe ###
+基于正则表达式，需要较多人工干预
+日志添加在程序目录下relog.log中
+用法：
+```
+	php_shell_scan_re.exe dir
+```
