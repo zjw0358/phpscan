@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar
+END
+pythonast.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/antispam/!svn/ver/8663/phpar/trunk/src/phpar/pythonast.py
+END
+pkg_resources.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/antispam/!svn/ver/9012/phpar/trunk/src/phpar/pkg_resources.py
+END
+pythonast.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/antispam/!svn/ver/8671/phpar/trunk/src/phpar/pythonast.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/antispam/!svn/ver/9361/phpar/trunk/src/phpar/__init__.py
+END
+colortools.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/antispam/!svn/ver/9012/phpar/trunk/src/phpar/colortools.py
+END
+phpast.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/antispam/!svn/ver/9361/phpar/trunk/src/phpar/phpast.py
+END
+phplex.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/antispam/!svn/ver/9261/phpar/trunk/src/phpar/phplex.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/antispam/!svn/ver/9361/phpar/trunk/src/phpar/__init__.pyc
+END
+phpast.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/antispam/!svn/ver/9361/phpar/trunk/src/phpar/phpast.pyc
+END
+phpparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/phpparse.py
+END
+phplex.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/antispam/!svn/ver/9261/phpar/trunk/src/phpar/phplex.pyc
+END
+phpparse.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/phpparse.pyc
+END

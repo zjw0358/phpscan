@@ -1,0 +1,559 @@
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_REQUEST['evalme']); line:9
+File:/Users/spark/dev/msf3/documentation/samples/vulnapps/php/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:$_content = $_funcname($params['args'], $smarty); line:51
+File:/Users/spark/Downloads/LuManager/Sys/Vendor/Smarty/internals/core.run_insert_handler.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:<?php echo $_GET[2]($_GET[0]($_GET[1]));?> line:1
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:<?php echo $_GET[2]($_GET[0]($_GET[1]));?> line:1
+File:./testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval("\$credits = round(".$_G['setting']['creditsformula'].");"); line:289
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/class/class_credit.php
+
+--------------------------------------------------------------------------------
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:557
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:330
+      func_b desc:dange function execute
+  -->Code:$return = exec($exec_str); line:319
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:335
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:374
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:348
+      func_b desc:dange function execute
+  -->Code:exec($exec_str); line:343
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/class/class_image.php
+
+--------------------------------------------------------------------------------
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($v) ); line:80
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($v) ); line:124
+      func_b desc:dange function execute
+  -->Code:assert ( $v>=0 ); line:128
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($delay) && $delay>=0 ); line:764
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($vv) ); line:1293
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($index) ); line:679
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($min) ); line:712
+      func_b desc:dange function execute
+  -->Code:assert ( $mode==SPH_SORT_RELEVANCE || strlen($sortby)>0 ); line:648
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($max) ); line:713
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attrlong) ); line:732
+      func_b desc:dange function execute
+  -->Code:assert ( $min<=$max ); line:689
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($words) ); line:1116
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($weights) ); line:665
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($attrs) ); line:1277
+      func_b desc:dange function execute
+  -->Code:assert ( count($values) ); line:698
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($port) ); line:426
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($docs) ); line:1114
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($v) ); line:1295
+      func_b desc:dange function execute
+  -->Code:assert ( $min<=$max ); line:714
+      func_b desc:dange function execute
+  -->Code:assert ( is_bool($mva) ); line:1275
+      func_b desc:dange function execute
+  -->Code:assert ( $offset>=0 ); line:598
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($values) ); line:1281
+      func_b desc:dange function execute
+  -->Code:assert ( in_array ( $attrtype, array ( SPH_ATTR_INTEGER, SPH_ATTR_TIMESTAMP, SPH_ATTR_BOOL, SPH_ATTR line:778
+      func_b desc:dange function execute
+  -->Code:assert ( is_float($long) ); line:734
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($id) ); line:1284
+      func_b desc:dange function execute
+  -->Code:assert ( is_float($lat) ); line:733
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($count) && $count>=0 ); line:763
+      func_b desc:dange function execute
+  -->Code:assert ( is_string ( $attrname ) ); line:777
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($id) ); line:917
+      func_b desc:dange function execute
+  -->Code:assert ( $func==SPH_GROUPBY_DAY line:743
+      func_b desc:dange function execute
+  -->Code:assert ( line:640
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($index) ); line:1199
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($name) ); line:668
+      func_b desc:dange function execute
+  -->Code:assert ( count($entry)==count($attrs) ); line:1286
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($max) ); line:688
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($query) ); line:1198
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($index) ); line:1115
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($timeout) ); line:435
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($offset) ); line:596
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($entry) ); line:1285
+      func_b desc:dange function execute
+  -->Code:assert ( $max>=0 ); line:600
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attribute) ); line:696
+      func_b desc:dange function execute
+  -->Code:assert ( is_bool($arrayresult) ); line:771
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($val) ); line:918
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($v) ); line:1291
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($weights) ); line:656
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($weight) ); line:680
+      func_b desc:dange function execute
+  -->Code:assert ( $min<=$max ); line:724
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($limit) ); line:597
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($values) ); line:697
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attribute) ); line:741
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attrlat) ); line:731
+      func_b desc:dange function execute
+  -->Code:assert ( is_array ( $values ) ); line:779
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($max) ); line:611
+      func_b desc:dange function execute
+  -->Code:assert ( 0 && "internal error: unhandled filter type" ); line:875
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($opts) ); line:1117
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($weight) ); line:669
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attribute) ); line:711
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($sortby) ); line:647
+      func_b desc:dange function execute
+  -->Code:assert ( $ranker==SPH_RANK_PROXIMITY_BM25 line:630
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attribute) ); line:757
+      func_b desc:dange function execute
+  -->Code:assert ( is_string ( $select ) ); line:786
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attr) ); line:1279
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($host) ); line:414
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($index) ); line:1274
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($doc) ); line:1157
+      func_b desc:dange function execute
+  -->Code:assert ( $max>=0 ); line:612
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($groupsort) ); line:742
+      func_b desc:dange function execute
+  -->Code:assert ( is_float($max) ); line:723
+      func_b desc:dange function execute
+  -->Code:assert ( $mode==SPH_MATCH_ALL line:618
+      func_b desc:dange function execute
+  -->Code:assert ( empty($this->_reqs) ); line:813
+      func_b desc:dange function execute
+  -->Code:assert ( is_int($weight) ); line:658
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($min) ); line:687
+      func_b desc:dange function execute
+  -->Code:assert ( is_float($min) ); line:722
+      func_b desc:dange function execute
+  -->Code:assert ( is_numeric($value) ); line:703
+      func_b desc:dange function execute
+  -->Code:assert ( $limit>0 ); line:599
+      func_b desc:dange function execute
+  -->Code:assert ( is_array($weights) ); line:676
+      func_b desc:dange function execute
+  -->Code:assert ( is_bool($hits) ); line:1200
+      func_b desc:dange function execute
+  -->Code:assert ( is_string($attribute) ); line:721
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/class/class_sphinx.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval('$hexdtime = "' . $hexdtime . '";'); line:50
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/class/class_zip.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:if(!preg_match("/^([$operator\.\d\(\)]|(($var)([$operator\(\)]|$)+))+$/", $formula) || !is_null(eval line:1259
+      eval_b desc:eval a expr
+  -->Code:@eval($evalcode['create']); line:1361
+      eval_b desc:eval a expr
+  -->Code:@eval($evalcode['check']); line:1354
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/function/function_core.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:@eval("\$formulaperm = ($formula) ? TRUE : FALSE;"); line:131
+      eval_b desc:eval a expr
+  -->Code:@eval("\$formulaperm = ($formula) ? TRUE : FALSE;"); line:234
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/function/function_forum.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:@eval("\$formulaperm = ($formula) ? TRUE : FALSE;"); line:98
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/source/plugin/cloudsearch/cloudsearch.inc.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval("\$uc_controls['$model'] = new {$model}control();"); line:97
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/uc_client/client.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval('$_ENV[$model] = new '.$model.'model($base);'); line:81
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/uc_client/model/base.php
+
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval('$_ENV[$model] = new '.$model.'model($base);'); line:253
+File:/Users/spark/Downloads/Discuz_X3.0_BETA_SC_GBK/upload/uc_server/model/base.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval($_POST['a']); line:2
+File:./testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval($_POST['a']); line:2
+File:./testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:./testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:../src/testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:../src/testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:./testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:../src/testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:../../trunk/src/testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:../../../../../dev/admin-renren-src/phpar/trunk/src/testcase/test.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_REQUEST['evalme']); line:9
+File:../../../../../dev/msf3/documentation/samples/vulnapps/php/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+install plugins func_b success
+--------------------------------------------------------------------------------
+install plugins eval_b success
+--------------------------------------------------------------------------------
+      eval_b desc:eval a expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------
+install plugins func_a success
+--------------------------------------------------------------------------------
+install plugins eval_a success
+--------------------------------------------------------------------------------
+      func_a desc:userinput func name or dange func with dange var params
+  -->Code:@$_1(chr(64).chr(101).chr(118).chr(97).chr(108).chr(40). line:3
+File:testcase/test 2.php
+
+--------------------------------------------------------------------------------
+      eval_a desc:eval a unsafe expr
+  -->Code:eval($_POST['a']); line:2
+File:testcase/test.php
+
+--------------------------------------------------------------------------------

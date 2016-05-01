@@ -1,0 +1,84 @@
+
+[/Users/spark/Downloads/LuManager/Common/alipay/index.php] :
+	|-- [eval]  line [69] 
+		code:eval('setInterval("glowit('+i+')",150)')
+
+[/Users/spark/Downloads/LuManager/Sys/Lib/Think/Core/App.class.php] :
+	|-- [exec]  line [261] 
+		code:static public function exec()
+	|-- [exec]  line [329] 
+		code:App::exec();
+
+[/Users/spark/Downloads/LuManager/Sys/Lib/Think/Db/Db.class.php] :
+	|-- [``] command is [mkdir -p $path] in line [749] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [750] 
+		code:`rm -rf $path_old`;
+	|-- [``] command is [mkdir -p $path] in line [794] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [795] 
+		code:`rm -rf $path_old`;
+	|-- [``] command is [mkdir -p $path] in line [828] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [829] 
+		code:`rm -rf $path_old`;
+	|-- [``] command is [mkdir -p $path] in line [861] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [862] 
+		code:`rm -rf $path_old`;
+	|-- [``] command is [mkdir -p $path] in line [909] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [910] 
+		code:`rm -rf $path_old`;
+	|-- [``] command is [mkdir -p $path] in line [948] 
+		code:`mkdir -p $path`;
+	|-- [``] command is [rm -rf $path_old] in line [949] 
+		code:`rm -rf $path_old`;
+
+[/Users/spark/Downloads/LuManager/Sys/Lib/Think/Db/Driver/DbPdo.class.php] :
+	|-- [exec]  line [78] 
+		code:$this->linkID[$linkNum]->exec('SET NAMES '.C('DB_CHARSET'));
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/EaseTemplate/template.core.php] :
+	|-- [eval]  line [248] 
+		code:@eval('echo "'.$ShowTPL.'";');
+	|-- [eval]  line [382] 
+		code:<!-- IF(\$EaseTemplate3_Cache) -->{run:@eval('echo \"'.\$EaseTemplate3_Cache.'\";')}<!-- END -->
+	|-- [eval]  line [574] 
+		code:@eval('echo "'.$EaseTemplate3_Cache.'";');
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/phpRPC/compat.php] :
+	|-- [eval]  line [206] 
+		code:eval('class ' . $classname . ' { }');
+	|-- [eval]  line [209] 
+		code:eval('
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/phpRPC/phprpc_client.php] :
+	|-- [eval]  line [566] 
+		code:eval('
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/Smarty/Smarty.class.php] :
+	|-- [eval]  line [1928] 
+		code:* wrapper for eval() retaining $this
+	|-- [eval]  line [1933] 
+		code:return eval($code);
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/Smarty/Smarty_Compiler.class.php] :
+	|-- [eval]  line [1853] 
+		code:return "eval('".$_tmp."')";
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/TemplateLite/class.template.php] :
+	|-- [eval]  line [745] 
+		code:eval(' ?>' . $output . '<?php ');
+
+[/Users/spark/Downloads/LuManager/Sys/Vendor/TemplateLite/internal/template.config_loader.php] :
+	|-- [eval]  line [64] 
+		code:eval($output);
+
+[testcase/test.php] :
+	|-- [eval]  line [2] 
+		code:eval($_POST['a']);
+
+[testcase/test.php] :
+	|-- [eval]  line [2] 
+		code:eval($_POST['a']);

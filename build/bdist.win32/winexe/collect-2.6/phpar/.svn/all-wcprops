@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/antispam/!svn/ver/10220/phpar/trunk/src/build/bdist.win32/winexe/collect-2.6/phpar
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/antispam/!svn/ver/9361/phpar/trunk/src/build/bdist.win32/winexe/collect-2.6/phpar/__init__.pyc
+END
+phpast.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/antispam/!svn/ver/9361/phpar/trunk/src/build/bdist.win32/winexe/collect-2.6/phpar/phpast.pyc
+END
+phplex.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/antispam/!svn/ver/9361/phpar/trunk/src/build/bdist.win32/winexe/collect-2.6/phpar/phplex.pyc
+END
+phpparse.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/antispam/!svn/ver/10220/phpar/trunk/src/build/bdist.win32/winexe/collect-2.6/phpar/phpparse.pyc
+END

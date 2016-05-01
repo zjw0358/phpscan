@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/ply
+END
+lex.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/lex.py
+END
+ctokens.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/ctokens.pyc
+END
+lex.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/antispam/!svn/ver/9195/phpar/trunk/src/phpar/ply/lex.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/__init__.py
+END
+yacc.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/ply/yacc.py
+END
+parsetab.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/ply/parsetab.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/antispam/!svn/ver/9195/phpar/trunk/src/phpar/ply/__init__.pyc
+END
+cpp.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/cpp.py
+END
+yacc.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/antispam/!svn/ver/10220/phpar/trunk/src/phpar/ply/yacc.pyc
+END
+cpp.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/cpp.pyc
+END
+ctokens.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/antispam/!svn/ver/8691/phpar/trunk/src/phpar/ply/ctokens.py
+END

