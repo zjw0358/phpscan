@@ -5,12 +5,12 @@
 采用语义分析的方法进行后门检测，分严谨扫描模式和深度探索模式。
 日志添加在程序目录下scan.log中
 
-**严谨扫描模式: **
+** 严谨扫描模式: **
 >
 	php_shell_scan.exe dir
 	php_shell_scan.exe file
 
-**深度探索模式:**
+** 深度探索模式: **
 >
 	php_shell_scan.exe dir maybe
 	php_shell_scan.exe file maybe
